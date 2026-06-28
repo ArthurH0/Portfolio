@@ -1,6 +1,6 @@
 export default function Servicos() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-black text-white">
+    <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-zinc-300 text-white">
       <div className="max-w-5xl w-full">
 
         {/* Título */}

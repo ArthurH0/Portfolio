@@ -20,9 +20,9 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 w-full max-w-7xl pl-16 pr-6 text-white">
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-          Arthur Henrique
-        </h1>
+        <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
+          Olá, eu sou <span className="text-orange-500"> {"Arthur\u00A0Acácio"}</span>
+        </h2>
 
         <p className="mt-4 text-lg md:text-2xl text-zinc-300 max-w-2xl">
           Produção audiovisual
@@ -30,17 +30,17 @@ export default function Hero() {
 
         <div className="mt-8 flex flex-wrap gap-4">
           <a
-            href="#portfolio"
-            className="px-6 py-3 bg-white text-black rounded-full font-medium"
+            href="portfolio"
+            className="px-6 py-3 bg-white text-black rounded-full font-medium transition-all duration-300 hover:bg-black hover:text-white hover:border hover:border-white"
           >
             Ver trabalhos
           </a>
 
           <a
             href="https://wa.me/31995439649"
-          target="_blank"
+            target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 border border-white rounded-full"
+            className="px-6 py-3 border border-white rounded-full transition-all duration-300 hover:bg-white hover:text-black"
           >
             Entrar em contato
           </a>

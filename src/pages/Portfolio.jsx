@@ -29,13 +29,13 @@ export default function PortfolioSection() {
   return (
     <section
       id="portfolio"
-      className="py-24 px-6 bg-zinc-950 text-white"
+      className="py-24 px-6 bg-zinc-900 text-white"
     >
       <div className="max-w-7xl mx-auto">
 
         <div className="text-center mb-20">
 
-          <span className="uppercase tracking-[4px] text-orange-500">
+          <span className="uppercase tracking-[4px] text-grey-500 font-semibold">
             Portfólio
           </span>
 

@@ -17,7 +17,9 @@ export default function Navbar() {
           href="/"
           className="text-xl font-bold tracking-wide text-white"
         >
-          Arthur Henrique
+          <p className="font-bold leading-tight transition-all duration-300 hover:scale-105 hover:text-gray-300 cursor-default cursor-pointer">
+            Arthur Acácio
+          </p>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

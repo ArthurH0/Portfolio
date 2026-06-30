@@ -1,6 +1,6 @@
 export default function Contato() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-black text-white">
+    <section id="contato" className="min-h-screen flex items-center justify-center px-6 py-20 bg-black text-white">
       <div className="max-w-3xl w-full text-center">
 
         {/* Título */}

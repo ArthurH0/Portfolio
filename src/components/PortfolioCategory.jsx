@@ -7,12 +7,16 @@ export default function PortfolioCategory({
 }) {
   return (
     <div className="mb-24">
-
       <div className="mb-10">
+        <div className="flex justify-between gap-4 align-center items-center">
+          <h3 className="text-3xl font-bold">
+            {title}
+          </h3>
+          <a href="#" className="text-blue-500 hover:text-blue-400">
+            Ver todos →
+          </a>
+        </div>
 
-        <h3 className="text-3xl font-bold">
-          {title}
-        </h3>
 
         <p className="text-zinc-400 mt-2">
           {subtitle}

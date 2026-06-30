@@ -14,9 +14,6 @@ export default function AppRoutes() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<PortfolioSection />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/servicos" element={<Servicos />} />
-        <Route path="/contato" element={<Contato />} />
       </Route>
     </Routes>
   )

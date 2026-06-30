@@ -2,26 +2,31 @@ import PortfolioCategory from "../components/PortfolioCategory";
 
 const corporativo = [
   {
-    title: "Empresa X",
-    thumbnail: "/images/corporativo-1.jpg",
+    title: "Maxtemper - Aquecimento solar",
+    videoUrl: "https://youtube.com/shorts/zWYXK-YjMo4",
   },
   {
-    title: "Empresa Y",
-    thumbnail: "/images/corporativo-2.jpg",
+    title: "Ariella Oliveira - Sobrancelhas",
+    videoUrl: "https://youtube.com/shorts/oBx2QitaZ-Y",
+  },
+
+  {
+    title: "Maxtemper - Aquecimento solar",
+    videoUrl: "https://youtube.com/shorts/s5lK_jT6D_U",
   },
 ];
 
 const eventos = [
   {
     title: "Evento ABC",
-    thumbnail: "/images/evento-1.jpg",
+    videoUrl: "https://youtu.be/YYYYYYYYYYY",
   },
 ];
 
 const esportes = [
   {
     title: "Campeonato",
-    thumbnail: "/images/esporte-1.jpg",
+    videoUrl: "https://youtu.be/ZZZZZZZZZZZ",
   },
 ];
 

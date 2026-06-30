@@ -14,7 +14,7 @@ export default function Contato() {
 
         {/* Botão WhatsApp */}
         <a
-          href="https://wa.me/5531999999999?text=Olá!%20Vi%20seu%20portfólio%20e%20quero%20trabalhar%20com%20você."
+          href="https://wa.me/5531995439649?text=Olá!%20Vi%20seu%20portfólio%20e%20quero%20trabalhar%20com%20você."
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 border border-white rounded-full hover:bg-white hover:text-black transition mb-6"

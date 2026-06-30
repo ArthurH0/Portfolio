@@ -25,12 +25,11 @@ export default function Hero() {
         </h2>
 
         <p className="mt-4 text-lg md:text-2xl text-zinc-300 max-w-2xl">
-          Produção audiovisual
-        </p>
+          Produtor audiovisual, videomaker e editor. Criando filmes que conectam pessoas, marcas e emoções. </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
           <a
-            href="portfolio"
+            href="#portfolio"
             className="px-6 py-3 bg-white text-black rounded-full font-medium transition-all duration-300 hover:bg-black hover:text-white hover:border hover:border-white"
           >
             Ver trabalhos

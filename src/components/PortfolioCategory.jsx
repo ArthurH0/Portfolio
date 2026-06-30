@@ -12,9 +12,9 @@ export default function PortfolioCategory({
           <h3 className="text-3xl font-bold">
             {title}
           </h3>
-          <a href="#" className="text-blue-500 hover:text-blue-400">
+          {/* <a href="#" className="text-blue-500 hover:text-blue-400">
             Ver todos →
-          </a>
+          </a> */}
         </div>
 
 

@@ -17,8 +17,8 @@ export default function Servicos() {
               Captação de Vídeo
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Produção de vídeos com foco em estética cinematográfica,
-              iluminação e enquadramento profissional para marcas, eventos e criadores.
+              Produção de vídeos com foco em estética cinematográfica e qualidade profissional 
+              para marcas, eventos e criadores.
             </p>
           </div>
 

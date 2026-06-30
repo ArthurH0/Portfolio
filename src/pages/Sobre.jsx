@@ -12,25 +12,14 @@ export default function Sobre() {
                 <div className="space-y-6 text-gray-300 leading-relaxed text-lg">
 
                     <p>
-                        Sou Arthur, filmmaker focado em produção de vídeos publicitários e
+                        Sou Arthur, videomaker focado em produção de vídeos publicitários e
                         conteúdo para redes sociais.
                     </p>
-
                     <p>
-                        Trabalho com criação de peças visuais que unem estética cinematográfica
-                        e comunicação direta, ajudando marcas e criadores a se conectarem melhor
-                        com seu público.
+                       Também atuo com produções para o ambiente corporativo e cobertura de eventos, buscando criar vídeos que comuniquem de forma clara e envolvente.
                     </p>
-
                     <p>
-                        Atuo no audiovisual há poucos meses, com foco em evolução constante e
-                        projetos práticos que desenvolvem minha linguagem visual e técnica.
-                    </p>
-
-                    <p>
-                        Meu objetivo é transformar ideias em vídeos que não sejam apenas bonitos,
-                        mas que transmitam mensagem e gerem conexão real.
-                    </p>
+                        Tenho grande interesse pelo universo dos esportes, que inspira parte do meu trabalho e da minha forma de contar histórias. Atualmente, sou estudante de Audiovisual e estou em constante evolução, aprimorando minhas técnicas e desenvolvendo novos projetos para entregar produções cada vez mais criativas e profissionais.                    </p>
 
                 </div>
 

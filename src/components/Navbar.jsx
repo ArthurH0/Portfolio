@@ -19,15 +19,16 @@ export default function Navbar() {
       id: "sobre",
     },
     {
+      name: "Portfólio",
+      type: "section",
+      id: "portfolio",
+    },
+    {
       name: "Serviços",
       type: "section",
       id: "servicos",
     },
-    {
-      name: "Portfólio",
-      type: "route",
-      path: "/portfolio",
-    },
+
     {
       name: "Contato",
       type: "section",
@@ -116,19 +117,17 @@ export default function Navbar() {
 
       {/* Overlay */}
       <div
-        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 md:hidden ${
-          isOpen
+        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 md:hidden ${isOpen
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
-        }`}
+          }`}
         onClick={() => setIsOpen(false)}
       />
 
       {/* Drawer */}
       <aside
-        className={`fixed top-0 right-0 h-screen w-80 bg-zinc-950 z-50 transform transition-transform duration-300 md:hidden ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-0 right-0 h-screen w-80 bg-zinc-950 z-50 transform transition-transform duration-300 md:hidden ${isOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="h-20 px-6 flex items-center justify-between border-b border-white/10">
           <span className="text-xl font-bold text-white">

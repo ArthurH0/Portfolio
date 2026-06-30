@@ -17,15 +17,24 @@ const corporativo = [
 ];
 
 const eventos = [
+ {
+    title: "Aniversário - Festa Junina",
+    videoUrl: "https://youtu.be/Z3U3BJFShFg",
+  },
   {
-    title: "Evento ABC",
-    videoUrl: "https://youtu.be/YYYYYYYYYYY",
+    title: "Chá Revelação",
+    videoUrl: "https://youtube.com/shorts/BAC3TpAc2qM",
+  },
+
+  {
+    title: "Aniversário 2 Anos - Eduardo",
+    videoUrl: "https://youtube.com/shorts/30uUxatnqbY",
   },
 ];
 
 const esportes = [
   {
-    title: "Campeonato",
+    title: "Ch;a",
     videoUrl: "https://youtu.be/ZZZZZZZZZZZ",
   },
 ];
@@ -65,12 +74,6 @@ export default function PortfolioSection() {
           title="Eventos"
           subtitle="Cobertura de eventos sociais e corporativos."
           videos={eventos}
-        />
-
-        <PortfolioCategory
-          title="Esportes"
-          subtitle="Energia, velocidade e emoção em cada frame."
-          videos={esportes}
         />
 
       </div>

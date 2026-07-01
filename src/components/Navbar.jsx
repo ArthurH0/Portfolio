@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
+import logoArthur from "../assets/LogoArthur.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,16 +78,19 @@ export default function Navbar() {
             onClick={goHome}
             className="text-xl font-bold tracking-wide text-white transition hover:scale-105 hover:text-gray-300"
           >
-            Arthur Acácio
-          </button>
+            <img
+              src={logoArthur}
+              alt="Logo Arthur"
+              className="w-30 cursor-pointer"
+            />          </button>
 
           {/* Desktop */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8 ">
             {links.map((link) => (
               <button
                 key={link.name}
                 onClick={() => handleNavigation(link)}
-                className="text-zinc-300 hover:text-white transition-colors"
+                className="text-zinc-300 hover:text-white transition-colors cursor-pointer"
               >
                 {link.name}
               </button>
@@ -118,8 +122,8 @@ export default function Navbar() {
       {/* Overlay */}
       <div
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 md:hidden ${isOpen
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+          ? "opacity-100 pointer-events-auto"
+          : "opacity-0 pointer-events-none"
           }`}
         onClick={() => setIsOpen(false)}
       />

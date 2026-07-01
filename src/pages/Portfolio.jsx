@@ -25,11 +25,6 @@ const eventos = [
     title: "Chá Revelação",
     videoUrl: "https://youtube.com/shorts/BAC3TpAc2qM",
   },
-
-  {
-    title: "Aniversário 2 Anos - Eduardo",
-    videoUrl: "https://youtube.com/shorts/30uUxatnqbY",
-  },
 ];
 
 const esportes = [

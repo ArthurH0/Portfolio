@@ -6,7 +6,7 @@ export default function Hero() {
       id="home"
       className="
   relative
-  min-h-screen
+  min-h-[95vh]
   bg-cover
   bg-[80%_center]
   md:bg-center

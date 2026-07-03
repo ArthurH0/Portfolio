@@ -21,7 +21,7 @@ export default function VideoCard({ title, videoUrl }) {
       </div>
 
       <div className="p-4">
-        <h3 className="font-semibold">{title}</h3>
+        <h3 className="font-semibold text-white">{title}</h3>
       </div>
     </div>
   );

@@ -17,13 +17,9 @@ const corporativo = [
 ];
 
 const eventos = [
- {
+  {
     title: "Aniversário - Festa Junina",
     videoUrl: "https://youtu.be/Z3U3BJFShFg",
-  },
-  {
-    title: "Chá Revelação",
-    videoUrl: "https://youtube.com/shorts/BAC3TpAc2qM",
   },
 ];
 
@@ -61,12 +57,15 @@ export default function PortfolioSection() {
 
         <PortfolioCategory
           title="Corporativo"
+          category="corporativo"
           subtitle="Conteúdos para empresas, marcas e negócios."
           videos={corporativo}
+          seeMore={true}
         />
 
         <PortfolioCategory
           title="Eventos"
+          category="eventos"
           subtitle="Cobertura de eventos sociais e corporativos."
           videos={eventos}
         />

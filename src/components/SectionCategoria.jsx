@@ -33,10 +33,10 @@ export default function SectionCategoria() {
     return (
         <div className="bg-black min-h-screen pt-20 p-10">
             <h1 className="text-4xl md:text-5xl font-bold mb-8 text-white">{dados.title}</h1>
+            <p className="text-zinc-400 mb-8">{dados.subtitle}</p>
             {dados.empresas.map((empresa) => (
                 <PortfolioCategory
                     key={empresa.empresa}
-                    subtitle={dados.subtitle}
                     videos={empresa.videos}
                     empresaTitle={empresa.empresa}
                     seeMore={false}

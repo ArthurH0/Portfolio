@@ -17,8 +17,8 @@ export default function Servicos() {
               Captação de Vídeo
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Produção de vídeos com foco em estética cinematográfica e qualidade profissional 
-              para marcas, eventos e criadores.
+              Produção de vídeos com qualidade profissional para marcas,
+              empresas, eventos e criadores de conteúdo.
             </p>
           </div>
 
@@ -36,11 +36,12 @@ export default function Servicos() {
           {/* Serviço 3 */}
           <div className="p-6 border border-gray-800 rounded-2xl">
             <h3 className="text-xl font-semibold mb-3">
-              Conteúdo para Redes Sociais
+              Conteúdo estratégico para Redes Sociais
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Criação de vídeos curtos (Reels, TikTok, Shorts) focados em alcance,
-              retenção e impacto visual.
+              Criação de vídeos para redes sociais e elaboração de estratégias
+              mensais de conteúdo, alinhadas aos objetivos da marca para ampliar
+              alcance, engajamento e resultados.
             </p>
           </div>
 

@@ -35,25 +35,13 @@ export default function Sobre() {
                             Edição
                         </span>
                         <span className="px-4 py-2 border border-gray-700 rounded-full">
-                            Conteúdo para redes sociais
+                            Conteúdo estratégico para redes sociais
                         </span>
                         <span className="px-4 py-2 border border-gray-700 rounded-full">
                             Storytelling visual
                         </span>
                     </div>
                 </div>
-
-                <div className="mt-12">
-                    <a
-                        href="https://wa.me/5531995439649"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition"
-                    >
-                        Fale comigo
-                    </a>
-                </div>
-
             </div>
         </section>
     );

@@ -10,11 +10,6 @@ export default function Navbar() {
 
   const links = [
     {
-      name: "Home",
-      type: "section",
-      id: "home",
-    },
-    {
       name: "Sobre",
       type: "section",
       id: "sobre",
@@ -30,11 +25,6 @@ export default function Navbar() {
       id: "servicos",
     },
 
-    {
-      name: "Contato",
-      type: "section",
-      id: "contato",
-    },
   ];
 
   function handleNavigation(link) {
@@ -106,7 +96,7 @@ export default function Navbar() {
             }
             className="hidden md:flex px-5 py-2 rounded-full bg-white text-black font-medium hover:scale-105 transition"
           >
-            Solicitar orçamento
+            Entrar em contato
           </button>
 
           {/* Botão Mobile */}
